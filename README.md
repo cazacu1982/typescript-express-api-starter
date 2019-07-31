@@ -1,4 +1,6 @@
 # typescript-express-api-starter
+# git clone
+# npm install
 To develop, we run:
 npm run watch-ts
 and in a separate terminal we run:
