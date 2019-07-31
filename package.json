@@ -1,0 +1,32 @@
+{
+  "name": "typescript-express-api-starter",
+  "version": "1.0.0",
+  "description": "\u0016typescript-express-api-starter",
+  "main": "dist/server.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "watch-ts": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cazacu1982/typescript-express-api-starter.git"
+  },
+  "author": "Cazacu Dragos Mihai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cazacu1982/typescript-express-api-starter/issues"
+  },
+  "homepage": "https://github.com/cazacu1982/typescript-express-api-starter#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "express": "^4.17.1"
+  }
+}
